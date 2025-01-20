@@ -5,39 +5,6 @@
 
 ---
 
-## Импортируемые библиотеки
-
-```python
-import requests
-import time
-import pickle
-import datetime
-import json
-import pandas as pd
-import os
-import cv2
-import numpy as np
-from PIL import Image
-from torchvision import models, transforms
-from transformers import pipeline
-import easyocr
-from matplotlib import pyplot as plt
-import seaborn as sns
-import re
-```
-
-### Основные модули:
-- **requests**: Для выполнения HTTP-запросов к API VK.
-- **time**: Для контроля задержек при вызовах API.
-- **cv2 и numpy**: Для обработки изображений.
-- **torchvision.models**: Для использования моделей компьютерного зрения.
-- **easyocr**: Для извлечения текста из изображений.
-- **transformers**: Для работы с языковыми моделями.
-- **pandas**: Для структурирования и анализа данных.
-- **json**: Для работы с JSON-данными.
-
----
-
 ## Функции анализа изображений
 
 ### 1. `detect_text(image_path)`
