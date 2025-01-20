@@ -1,4 +1,3 @@
-# VkAPI_analize
 # VK Data Analysis Tool
 
 ## Описание
